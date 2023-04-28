@@ -9,5 +9,5 @@ curl --location 'http://localhost:8081/send' \
 ],
 "from": "No reply email <noreply@fake.com>",
 "subject": "Test message",
-"html": "<h1>Hello title</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sint.</p>"
+"html": "SOME HTML TEXT"
 }'
