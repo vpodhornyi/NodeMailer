@@ -26,6 +26,7 @@ class Server {
     this.app.post('/send', async (req, res, next) => {
       try {
         const data = req.body;
+        console.log(data);
         const answer = await this.mailer.send(data);
         res.json({messageId: answer.messageId});
 
